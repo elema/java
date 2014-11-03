@@ -1,0 +1,16 @@
+package com.clearedgetek;
+
+//imports
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Application {
+
+	public static void main(String[] args) {
+		System.out.println("Application starting");
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		HelloWorld helloWorld = (HelloWorld) applicationContext.getBean("helloWorld");
+		helloWorld.getMessage();
+		
+	}
+}

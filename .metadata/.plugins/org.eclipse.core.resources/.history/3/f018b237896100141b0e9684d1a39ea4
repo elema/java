@@ -1,0 +1,10 @@
+package com.clearedgetek;
+
+public class Application {
+
+	public static void main(String[] args) {
+		System.out.println("Application starting");
+		HelloWorld helloWorld = new HelloWorld();
+		helloWorld.sayGreeting();		
+	}
+}

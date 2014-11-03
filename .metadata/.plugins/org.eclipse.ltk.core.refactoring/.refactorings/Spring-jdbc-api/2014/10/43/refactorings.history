@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 resources to &apos;Spring-jdbc-api&apos;" description="Move 1 resources to &apos;Spring-jdbc-api&apos;" destination="/Spring-jdbc-api" element1="src/Beans.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1414109780351" updateReferences="true"/>
+</session>

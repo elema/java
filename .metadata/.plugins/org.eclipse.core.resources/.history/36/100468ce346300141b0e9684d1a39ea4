@@ -1,0 +1,16 @@
+package Resources;
+
+import java.io.File;
+
+class Temp implements AutoCloseable {
+	@Override
+	public void close() throws Exception{
+		System.out.println("Closing");
+	}
+}
+
+public class App {
+
+	File file=new File("./src/example.txt");
+	
+}

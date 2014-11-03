@@ -1,0 +1,9 @@
+package AbtractClasses;
+
+public class App {
+
+	public static void main(String[] args){
+		System.out.println("Chapter 37 = Abstract Classes");
+		
+	}
+}

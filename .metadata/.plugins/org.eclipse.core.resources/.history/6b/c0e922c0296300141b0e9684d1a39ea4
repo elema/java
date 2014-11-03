@@ -1,0 +1,15 @@
+package demo1;
+
+import java.io.FileNotFoundException;
+import java.text.ParseException;
+
+public class App {
+
+	public static void main(String[] args) throws IOException, ParseException {
+		System.out.println("Chapter 35 = Multiple Exceptions");
+		Test test = new Test();
+		test.run();
+		
+	}
+
+}

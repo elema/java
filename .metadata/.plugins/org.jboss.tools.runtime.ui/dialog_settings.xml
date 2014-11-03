@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="deleteOnExit"/>
+	<item value="/Users/akaghzi" key="defaultDialogPath"/>
+	<item value="/var/folders/m5/y5rqkl5n5_q1t7p0z9bfcs300000gn/T/" key="defaultDestinationPath"/>
+	<section name="downloadRuntimeSection">
+		<item value="true" key="wildfly-810finalruntime"/>
+	</section>
+</section>

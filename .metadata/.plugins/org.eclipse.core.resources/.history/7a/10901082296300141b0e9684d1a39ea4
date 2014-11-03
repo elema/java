@@ -1,0 +1,7 @@
+package demo1;
+import java.io.IOException;
+public class Test {
+	public void run() throws IOException, ParseException {
+	throws new ParseException("Error in command list", 2);	
+	}
+}

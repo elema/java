@@ -1,0 +1,15 @@
+package demo2;
+
+
+public class App {
+
+	public static void main(String[] args){
+		System.out.println("Chapter 36 = Runtime Exceptions");
+		int value = 7;
+		// / by zero runtime error
+//		value = value/0;
+		String string = null;
+		System.out.println(string.length());
+	}
+
+}

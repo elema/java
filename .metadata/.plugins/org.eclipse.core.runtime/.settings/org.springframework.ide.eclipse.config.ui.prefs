@@ -1,0 +1,4 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/Spring-JDBC/src/main/resources/META-INF/spring/app-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-samples/advanced/advanced-testing-examples/src/main/resources/integration-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-samples/intermediate/stored-procedures-oracle/src/main/resources/META-INF/spring/integration/spring-integration-database-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+eclipse.preferences.version=1

@@ -1,0 +1,21 @@
+package FileReader;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class App {
+
+	public static void main(String[] args){
+		System.out.println("Chapter 39 = File Readers");
+		File file = new File("./src/example.txt");
+			FileReader fr = new FileReader(file);
+			BufferedReader br = new BufferedReader(fr);
+			String line;
+			while((line = br.readLine()) != null != null){
+					System.out.println(line);			
+			}
+	}
+}

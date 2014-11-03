@@ -1,0 +1,2 @@
+<!DOCTYPE RootElement PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd"><!--applicationContext file-->
+<?message Hello World!?>

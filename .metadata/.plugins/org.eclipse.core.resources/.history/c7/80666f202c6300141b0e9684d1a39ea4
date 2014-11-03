@@ -1,0 +1,29 @@
+package demo2;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+public class App {
+
+	public static void main(String[] args){
+		System.out.println("Chapter 35 = Multiple Exceptions");
+		Test test = new Test();
+		/*
+		try {
+			test.run();
+		} catch (IOException | ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		*/
+		try {
+			test.run();
+		}
+		catch (ParseException e) {
+			System.out.println("Caught exception while parsing statement.");
+		}
+		catch(IOException e) {
+			System.out.println("Caught IO exception.");
+		}
+	}
+}

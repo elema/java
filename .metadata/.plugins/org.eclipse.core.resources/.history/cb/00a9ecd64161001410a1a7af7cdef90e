@@ -1,0 +1,6 @@
+
+public class Camera extends Machine{
+	public static void snap() {
+		System.out.println("Photo taken");
+	}
+}
