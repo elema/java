@@ -1,10 +1,31 @@
 package WritingTextFiles;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+
 public class App {
 
 	public static void main(String[] args) {
 		System.out.println("Chapter - Writing Text Files");
-
+		File file = new File("./src/test.txt");
+		try(BufferedWriter br = new BufferedWriter(new FileWriter(file))){
+			br.write("Line # 1");
+			br.newLine();
+			br.write("Line # 2");
+			br.newLine();
+			br.write("Line # 3");
+			br.newLine();
+			br.write("Line # 4");
+			br.newLine();
+			br.write("Line # 5");
+			br.newLine();
+//			while((line = br.readLine()) != null) {
+//				System.out.println(line);
+//			}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
-
 }

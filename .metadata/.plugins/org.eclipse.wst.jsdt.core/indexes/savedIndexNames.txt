@@ -1,7 +1,6 @@
-INDEX VERSION 1.3+/Users/akaghzi/Projects/java/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3975567495.index
-356956306.index
-813939012.index
-1370836900.index
-3028543229.index
-1569014522.index
+INDEX VERSION 1.3+C:\Users\akaghzi\projects\java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2196777727.index
+3781563554.index
+3656874346.index
+3011788440.index
+1464044982.index
