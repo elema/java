@@ -17,10 +17,15 @@ public class Robot {
 		this.id = id;
 	}
 	public void start() {
+		class Noise {
+			void makeNoise(){
+				System.out.println("Making noise");
+			}
+		}
 		System.out.println("Starting Robot: " + id);
 		Brain brain = new Brain();
 		brain.think();
-//		Battery battery = new Battery();
-//		battery.charge();
+		Noise noise = new Noise();
+		noise.makeNoise();
 	}
 }
