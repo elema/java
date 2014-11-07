@@ -1,23 +1,22 @@
-package SerializeArray;
+package SerializationTransient;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class WriteObjects {
 
 	public static void main(String[] args) {
 		System.out.println("Writing objects");
-		Person[] people = { new Person(1, "mike"), new Person(2, "sue"),
-				new Person(3, "bob") };
-		ArrayList<Person> peopleList = new ArrayList<Person>(Arrays.asList(people));
-		try (FileOutputStream fs = new FileOutputStream("./src/array.txt")) {
+		Person mike = new Person(543, "Mike");
+		Person sue = new Person(123, "Sue");
+//		System.out.println(mike);
+//		System.out.println(sue);
+		try (FileOutputStream fs = new FileOutputStream("./src/person.txt")) {
 			try (ObjectOutputStream os = new ObjectOutputStream(fs)) {
-				os.writeObject(people);
-				os.writeObject(peopleList);
+				os.writeObject(mike);
+				os.writeObject(sue);
 			} catch (FileNotFoundException e) {
 				System.out.println("File not found exception for: ");
 			} catch (IOException e) {

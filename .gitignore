@@ -3,3 +3,13 @@
 .metadata/*/*
 
 *.snap
+
+*.ser
+
+*.ser
+
+.metadata/.log
+
+.metadata/.mylyn/tasks.xml.zip
+
+*.index
