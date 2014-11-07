@@ -1,6 +1,0 @@
-
-public class Camera extends Machine{
-	public static void Machine() {
-		System.out.println("Camera");
-	}
-}
