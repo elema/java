@@ -1,16 +1,25 @@
-package SerializeArray;
+package SerializationTransient;
 
 import java.io.Serializable;
 
 public class Person implements Serializable {
 
-	private static final long serialVersionUID = 6932780402442650414L;
-	private int id;
+	private static final long serialVersionUID = 351513048062669217L;
+	private transient int id;
 	private String name;
+	private static int count;
 
 	public Person(int id, String name) {
 		this.id = id;
 		this.name = name;
+	}
+
+	public static int getCount() {
+		return count;
+	}
+
+	public static void setCount(int count) {
+		Person.count = count;
 	}
 
 	@Override
