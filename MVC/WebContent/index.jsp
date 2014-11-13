@@ -13,8 +13,8 @@
 <p>
 This is home of MVC project
 </p>
-<a href="/MVC/Controller?action=login">login page</a>
-<a href="/MVC/Controller?action=about">about page</a>
+<a href="/MVC/Controller?action=login" class="btn btn-large btn-primary">Login</a>
+<a href="/MVC/Controller?action=about" class="btn btn-large btn-default">About Us</a>
 </div>
 </body>
 </html>
