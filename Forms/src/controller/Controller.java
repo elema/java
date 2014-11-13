@@ -43,9 +43,11 @@ public class Controller extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		String user = request.getParameter("user");
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
 		out.println("<html>");
-		out.print("user via post: " + user);
+		out.print("<p>user via post: " + email + "</p>");
+		out.print("<p>user via post: " + password + "</p>");
 		out.println("</html>");
 	}
 
