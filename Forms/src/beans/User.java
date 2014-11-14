@@ -33,9 +33,9 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+
 	public Boolean validate(){
-	
+
 		if (!email.matches("\\w+@\\w+\\.\\w+")){
 			message = "Email not valid";
 			return false;

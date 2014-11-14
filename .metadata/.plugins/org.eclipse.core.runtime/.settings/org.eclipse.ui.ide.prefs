@@ -1,10 +1,9 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=FETCH_HEAD
 PROBLEMS_FILTERS_MIGRATE=true
 SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=always
 eclipse.preferences.version=1
-<<<<<<< HEAD
-platformState=1412448068709
-=======
-platformState=1413702728450
->>>>>>> FETCH_HEAD
+platformState=1413702728806
 quickStart=false
 tipsAndTricks=true
